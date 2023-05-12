@@ -523,6 +523,12 @@ img {
     padding: 120px 0;
 }
 
+.socials {
+  display: flex;
+  justify-content: center;
+  gap: 36px;
+}
+
 .our-team {
     font-size: 36px;
     line-height: 1.11;
@@ -644,6 +650,7 @@ img {
 .portfolio-li {
     padding: 32px 16px;
     text-align: center;
+    margin-bottom: 20px;
 }
 
 .global-portfolio {
