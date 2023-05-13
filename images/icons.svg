@@ -1,13 +1,3 @@
-
-SVGOMG
-Best SVG optimizer and minifier
-
-Open SVG
-Paste markup
-Demo
-Contribute
-
-48.38k → 33.66k 69.57%
 <svg aria-hidden="true" style="position:absolute;width:0;height:0;overflow:hidden" xmlns="http://www.w3.org/2000/svg">
   <defs>
     <symbol id="antenna" viewBox="0 0 32 32">
