@@ -772,6 +772,7 @@ img {
 .footer-container-global {
   display: flex;
   align-items: baseline;
+  margin-left: 156px;
 }
 
 .footer-container {
