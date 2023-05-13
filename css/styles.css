@@ -582,12 +582,17 @@ img {
 
 .button-port:hover,
 .button-port:focus {
+  box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 2px 1px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
+}
+
+.button-port:hover,
+.button-port:focus {
     border: 1px solid transparent;
 }
 
 .header {
     border-bottom: 1px solid var(--accent);
-    box-shadow: 0px 2px 1px rgba(46, 47, 66, 0.08) 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 1px 6px rgba(46, 47, 66, 0.08);
+    box-shadow: 0px 2px 1px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 1px 6px rgba(46, 47, 66, 0.08);
 }
 
 .header .container {
@@ -651,7 +656,7 @@ img {
 }
 
 .portfolio-li {
-    padding: 32px 16px;
+    padding: 32px 0px;
     text-align: center;
     margin-bottom: 20px;
 }
@@ -753,13 +758,16 @@ img {
 .customers-link:hover,
 .customers-link:focus {
   border-color: var(--pressed-state);
+  color: var(--pressed-state);
 }
 
 .customers-icon {
   fill: currentColor;
-  width: 104px;
-  height: 56px;
 }
+
+.cutomers-h {
+  line-height: 1.1;
+} 
 
 .footer-container-global {
   display: flex;
@@ -806,4 +814,13 @@ img {
 
 .footer-icon {
   fill: var(--light);
+}
+
+.glob-portfolio-link {
+  display: block;
+}
+
+.glob-portfolio-link:hover,
+.glob-portfolio-link:focus {
+  box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
 }
